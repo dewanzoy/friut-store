@@ -13,43 +13,59 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
-    
+
 </head>
 
 <body class="font-family">
     <header>
-      <nav class="container mx-auto">
-        <div class="navbar bg-[#F85559] rounded-full text-white font-family">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <label tabindex="0" class="btn btn-ghost lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                </label>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>Home</a></li>
-                  <li><a>About Us</a></li>
-                  <li><a>Shop</a></li>
-                  <li><a>All Fruits</a></li>
-                </ul>
-              </div>
-              <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                    <li><a>About Us</a></li>
-                    <li><a>Shop</a></li>
-                    <li><a>All Fruits</a></li>
-                </ul>
+        <nav class="container mx-auto">
+            <div class="navbar bg-[#F85559] rounded-full text-white font-family flex-row-reverse lg:flex-row md:flex-row">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Logo -->
+                <div class="navbar-center">
+                    <img src="./images/logo.png" alt="">
+                    <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+                </div>
+                <div class="navbar-end">
+                    <div class="hidden sm:flex sm:items-center sm:ml-6">
+                        <div class="relative">
+                          <input type="text" class="rounded-full w-80 bg-white py-1 px-3 text-black focus:outline-none focus:border-blue-500" placeholder="Search">
+                          <button class="absolute right-0 top-0 h-full w-10 text-center text-black">
+                            <!-- search icon -->
+                            <svg class="h-4 w-4 fill-current" viewBox="0 0 24 24">
+                              <path d="M21.707 20.293L17.314 15.9a7.5 7.5 0 1 0-1.414 1.414l4.393 4.394a1 1 0 0 0 1.414-1.414zM9.5 16a6 6 0 1 1 0-12 6 6 0 0 1 0 12z"/>
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                </div>
             </div>
-            </div>
-            <div class="navbar-center">
-                <img src="./images/logo.png" alt="">
-                <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
-              </div>
-            <div class="navbar-end">
-              <a class="btn">Button</a>
-            </div>
-          </div>
-      </nav>
+        </nav>
     </header>
     <main>
 
